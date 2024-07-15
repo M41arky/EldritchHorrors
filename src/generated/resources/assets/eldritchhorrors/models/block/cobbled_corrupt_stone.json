@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "eldritchhorrors:block/cobbled_corrupt_stone"
+  }
+}
