@@ -60,7 +60,15 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // Stairs
 
+        evenSimplerBlockItem(ModBlocks.COBBLED_CORRUPT_STONE_STAIRS);
+        evenSimplerBlockItem(ModBlocks.CORRUPT_BRICK_STAIRS);
+        evenSimplerBlockItem(ModBlocks.CORRUPT_STONE_STAIRS);
+
         // Slabs
+
+        evenSimplerBlockItem(ModBlocks.COBBLED_CORRUPT_STONE_SLAB);
+        evenSimplerBlockItem(ModBlocks.CORRUPT_BRICK_SLAB);
+        evenSimplerBlockItem(ModBlocks.CORRUPT_STONE_SLAB);
 
         // Buttons
 
@@ -71,6 +79,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         // Fence Gates
 
         // Walls
+
+        wallItem(ModBlocks.COBBLED_CORRUPT_STONE_WALL, ModBlocks.COBBLED_CORRUPT_STONE);
+        wallItem(ModBlocks.CORRUPT_BRICK_WALL, ModBlocks.CORRUPT_BRICKS);
+        wallItem(ModBlocks.CORRUPT_STONE_WALL, ModBlocks.CORRUPT_STONE);
 
         // Doors
 

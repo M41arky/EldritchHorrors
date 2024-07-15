@@ -19,7 +19,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EldritchHorrors.MOD_ID);
 
 
-    public static final RegistryObject<CreativeModeTab> DESERT_MOD_ITEMS = CREATIVE_MODE_TABS.register("eldritch_tab",
+    public static final RegistryObject<CreativeModeTab> ELDRRITCH_HORRORS = CREATIVE_MODE_TABS.register("eldritch_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CORRUPT_TENDRIL.get()))
                     .title(Component.translatable("creativetab.eldritch_horrors"))
                     .displayItems((itemDisplayParameters, output) -> {
@@ -34,6 +34,25 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.CORRUPT_STONE.get());
                         output.accept(ModBlocks.COBBLED_CORRUPT_STONE.get());
+                        output.accept(ModBlocks.CORRUPT_BRICKS.get());
+
+                        // Stairs
+
+                        output.accept(ModBlocks.COBBLED_CORRUPT_STONE_STAIRS.get());
+                        output.accept(ModBlocks.CORRUPT_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.CORRUPT_STONE_STAIRS.get());
+
+                        // Slabs
+
+                        output.accept(ModBlocks.COBBLED_CORRUPT_STONE_SLAB.get());
+                        output.accept(ModBlocks.CORRUPT_BRICK_SLAB.get());
+                        output.accept(ModBlocks.CORRUPT_STONE_SLAB.get());
+
+                        // Walls
+
+                        output.accept(ModBlocks.COBBLED_CORRUPT_STONE_WALL.get());
+                        output.accept(ModBlocks.CORRUPT_BRICK_WALL.get());
+                        output.accept(ModBlocks.CORRUPT_STONE_WALL.get());
 
                     })
 

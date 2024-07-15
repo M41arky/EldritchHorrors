@@ -1,6 +1,16 @@
 {
   "values": [
     "eldritchhorrors:corrupt_stone",
-    "eldritchhorrors:cobbled_corrupt_stone"
+    "eldritchhorrors:cobbled_corrupt_stone",
+    "eldritchhorrors:cobbled_corrupt_stone_stairs",
+    "eldritchhorrors:cobbled_corrupt_stone_slab",
+    "eldritchhorrors:cobbled_corrupt_stone_wall",
+    "eldritchhorrors:corrupt_bricks",
+    "eldritchhorrors:corrupt_brick_slab",
+    "eldritchhorrors:corrupt_brick_stairs",
+    "eldritchhorrors:corrupt_brick_wall",
+    "eldritchhorrors:corrupt_stone_stairs",
+    "eldritchhorrors:corrupt_stone_slab",
+    "eldritchhorrors:corrupt_stone_wall"
   ]
 }

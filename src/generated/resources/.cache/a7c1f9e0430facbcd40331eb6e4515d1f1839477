@@ -1,3 +1,4 @@
-// 1.20.1	2024-07-15T15:59:24.959883	Tags for minecraft:block mod id eldritchhorrors
-d1f758227c27291954207fa6365721e4ed390f01 data/minecraft/tags/blocks/mineable/pickaxe.json
-d1f758227c27291954207fa6365721e4ed390f01 data/minecraft/tags/blocks/needs_iron_tool.json
+// 1.20.1	2024-07-15T23:57:34.2238128	Tags for minecraft:block mod id eldritchhorrors
+8a5e48b7e88b4942cc11c1c1ec70f4a6a0111414 data/minecraft/tags/blocks/mineable/pickaxe.json
+8a5e48b7e88b4942cc11c1c1ec70f4a6a0111414 data/minecraft/tags/blocks/needs_iron_tool.json
+094f3ba385595b029489f40408bf5f6657826822 data/minecraft/tags/blocks/walls.json

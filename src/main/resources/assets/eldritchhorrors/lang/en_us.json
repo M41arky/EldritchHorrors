@@ -4,6 +4,19 @@
 
   "block.eldritchhorrors.corrupt_stone": "Corrupt Stone",
   "block.eldritchhorrors.cobbled_corrupt_stone": "Cobbled Corrupt Stone",
+  "block.eldritchhorrors.corrupt_bricks": "Corrupt Bricks",
+
+  "block.eldritchhorrors.cobbled_corrupt_stone_stairs": "Cobbled Corrupt Stone Stairs",
+  "block.eldritchhorrors.corrupt_brick_stairs": "Corrupt Brick Stairs",
+  "block.eldritchhorrors.corrupt_stone_stairs": "Corrupt Stone Stairs",
+
+  "block.eldritchhorrors.cobbled_corrupt_stone_slab": "Cobbled Corrupt Stone Slab",
+  "block.eldritchhorrors.corrupt_brick_slab": "Corrupt Brick Slab",
+  "block.eldritchhorrors.corrupt_stone_slab": "Corrupt Stone Slab",
+
+  "block.eldritchhorrors.cobbled_corrupt_stone_wall": "Cobbled Corrupt Stone Wall",
+  "block.eldritchhorrors.corrupt_brick_wall": "Corrupt Brick Wall",
+  "block.eldritchhorrors.corrupt_stone_wall": "Corrupt Stone Wall",
 
 
   "creativetab.eldritch_horrors": "Eldritch Horrors"

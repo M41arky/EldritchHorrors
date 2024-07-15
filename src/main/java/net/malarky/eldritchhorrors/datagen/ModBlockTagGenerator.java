@@ -30,7 +30,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.CORRUPT_STONE.get(),
-                        ModBlocks.COBBLED_CORRUPT_STONE.get());
+                        ModBlocks.COBBLED_CORRUPT_STONE.get(),
+                        ModBlocks.COBBLED_CORRUPT_STONE_STAIRS.get(),
+                        ModBlocks.COBBLED_CORRUPT_STONE_SLAB.get(),
+                        ModBlocks.COBBLED_CORRUPT_STONE_WALL.get(),
+                        ModBlocks.CORRUPT_BRICKS.get(),
+                        ModBlocks.CORRUPT_BRICK_SLAB.get(),
+                        ModBlocks.CORRUPT_BRICK_STAIRS.get(),
+                        ModBlocks.CORRUPT_BRICK_WALL.get(),
+                        ModBlocks.CORRUPT_STONE_STAIRS.get(),
+                        ModBlocks.CORRUPT_STONE_SLAB.get(),
+                        ModBlocks.CORRUPT_STONE_WALL.get());
 
 
 
@@ -40,7 +50,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.CORRUPT_STONE.get(),
-                        ModBlocks.COBBLED_CORRUPT_STONE.get());
+                        ModBlocks.COBBLED_CORRUPT_STONE.get(),
+                        ModBlocks.COBBLED_CORRUPT_STONE_STAIRS.get(),
+                        ModBlocks.COBBLED_CORRUPT_STONE_SLAB.get(),
+                        ModBlocks.COBBLED_CORRUPT_STONE_WALL.get(),
+                        ModBlocks.CORRUPT_BRICKS.get(),
+                        ModBlocks.CORRUPT_BRICK_SLAB.get(),
+                        ModBlocks.CORRUPT_BRICK_STAIRS.get(),
+                        ModBlocks.CORRUPT_BRICK_WALL.get(),
+                        ModBlocks.CORRUPT_STONE_STAIRS.get(),
+                        ModBlocks.CORRUPT_STONE_SLAB.get(),
+                        ModBlocks.CORRUPT_STONE_WALL.get());
+
+        // Needs Wall Tag
+
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.COBBLED_CORRUPT_STONE_WALL.get(),
+                        ModBlocks.CORRUPT_BRICK_WALL.get(),
+        ModBlocks.CORRUPT_STONE_WALL.get());
+
+
 
 
 
